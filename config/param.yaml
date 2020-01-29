@@ -1,0 +1,13 @@
+batch_size:
+  64
+epochs:
+  200
+dropout:
+  0.5
+optimizer:
+  adam
+loss:
+  sparse_categorical_crossentropy
+size:
+  - 64
+  - 64
