@@ -88,7 +88,7 @@ class CNN():
             class_files = [{'path': f, 'class': self.classes.index(class_)} for f in glob.glob('data/%s/*'%class_)]
             files.extend(class_files)
 
-        for file in files:
+        for file in tqdm(files):
             x.append(self.__read_img(file['path']))
             y.append(file['class'])
 
