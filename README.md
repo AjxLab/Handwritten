@@ -1,7 +1,7 @@
-Image Classification Template
+Handwritten
 =============================
 
-Templates for classifying multiple images.
+Handwritten character recognition.
 
 
 ## Usage
@@ -24,8 +24,8 @@ $ python train.py
 ## Installation
 ### Clone This Repo
 ```sh
-$ git clone https://github.com/AjxLab/Image_Classification_Template
-$ cd Image_Classification_Template
+$ git clone https://github.com/AjxLab/Handwritten
+$ cd Handwritten
 ```
 ### Install Python Libraries
 ```sh
